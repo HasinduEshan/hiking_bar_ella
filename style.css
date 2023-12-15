@@ -10,17 +10,7 @@
     /* text-decoration: underline; */
 }
 
-
-body{
-
-    background: #d1d5db;
-}
-
-.height{
-
-    height: 100vh;
-}
-
+/* search-bar-from-home  start */
 .form{
 
     position: relative;
@@ -66,3 +56,5 @@ body{
     box-shadow: none;
     border:none;
 }
+
+/* search-bar-from-home  end */

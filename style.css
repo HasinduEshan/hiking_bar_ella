@@ -58,3 +58,19 @@
 }
 
 /* search-bar-from-home  end */
+
+
+/* Hide the scrollbar */
+.dropdown-menu::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+/* Optional: If you want to hide scrollbar in Firefox */
+.dropdown-menu {
+    scrollbar-width: none;
+}
+
+/* Optional: Add back a scrollbar to the element during hover (if desired) */
+.dropdown-menu:hover {
+    scrollbar-width: auto;
+}

@@ -75,6 +75,13 @@
     scrollbar-width: auto;
 }
 
+.img-style1{
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.img-style1:hover{
+  transform: scale(1.1);
+}
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
